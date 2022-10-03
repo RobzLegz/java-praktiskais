@@ -14,7 +14,7 @@ class Main {
     public static int getAvg(ArrayList<Integer> arr) {
         int total = 0;
 
-        for (int i = 0; i < arr.size(); i ++){
+        for (int i = 0; i < arr.size(); i++) {
             int mai = arr.get(i);
 
             total += mai;
@@ -34,10 +34,10 @@ class Main {
 
         ArrayList<Integer> modArr = arr;
 
-        for (int i = 0; i < modArr.size(); i ++){
+        for (int i = 0; i < modArr.size(); i++) {
             int mai = modArr.get(i);
 
-            if(mai < 0){
+            if (mai < 0) {
                 modArr.set(i, avg);
             }
         }

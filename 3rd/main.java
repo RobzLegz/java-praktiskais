@@ -145,38 +145,44 @@ class Main {
             }
         }
 
-        ArrayList<ArrayList<Integer>> rtrnArr = new ArrayList<ArrayList<Integer>>();
+        if (minJ != maxJ) {
+            ArrayList<ArrayList<Integer>> rtrnArr = new ArrayList<ArrayList<Integer>>();
 
-        for (int i = 0; i < arr.size(); i++) {
-            ArrayList<Integer> nRow = new ArrayList<Integer>();
-            ArrayList<Integer> row = arr.get(i);
+            for (int i = 0; i < arr.size(); i++) {
+                ArrayList<Integer> nRow = new ArrayList<Integer>();
+                ArrayList<Integer> row = arr.get(i);
 
-            for (int j = 0; j < row.size(); j++) {
-                int ma = row.get(maxJ);
-                int mi = row.get(minJ);
-                int n = row.get(j);
+                for (int j = 0; j < row.size(); j++) {
+                    int ma = row.get(maxJ);
+                    int mi = row.get(minJ);
+                    int n = row.get(j);
 
-                if (j == minJ) {
-                    nRow.add(ma);
-                } else if (j == maxJ) {
-                    nRow.add(mi);
-                } else {
-                    nRow.add(n);
+                    if (j == minJ) {
+                        nRow.add(ma);
+                    } else if (j == maxJ) {
+                        nRow.add(mi);
+                    } else {
+                        nRow.add(n);
+                    }
                 }
+
+                rtrnArr.add(nRow);
             }
 
-            rtrnArr.add(nRow);
-        }
+            System.out.println("Min value: " + minVal);
+            System.out.println("Max value: " + maxVal);
 
-        System.out.println("Min value: " + minVal);
-        System.out.println("Max value: " + maxVal);
-
-        if (minJ == maxJ) {
+            System.out.println("New array: ");
+            printArr(rtrnArr);
+        } else {
+            System.out.println("Min value: " + minVal);
+            System.out.println("Max value: " + maxVal);
             System.out.println("MAX and MIN value are in the same column");
+
+            System.out.println("New array: ");
+            printArr(arr);
         }
 
-        System.out.println("New array: ");
-        printArr(rtrnArr);
     }
 
     public static void main(String[] args) {

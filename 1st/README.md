@@ -210,3 +210,4 @@ Galvenā funkcija, kas izsauc pārējās.
 
 ### Rezultāts:
 ![image](https://user-images.githubusercontent.com/62758448/193545469-7440d3fd-7234-4c57-b04c-524adcf0e2e6.png)
+ 

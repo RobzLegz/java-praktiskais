@@ -10,21 +10,19 @@ class Main {
 
     String choice = in.nextLine();
 
-    String text;
+    String S;
 
     if (choice.toLowerCase().equals("y")) {
       System.out.println("Enter text:");
-      text = in.nextLine();
+      S = in.nextLine();
     } else {
-      text = "Ir pavasaris, daudz jaunu lapu mostas, dzimst jauni pumpuri un kukaini tiem apkart rosas";
+      S = "Ir pavasaris, daudz jaunu lapu mostas, dzimst jauni pumpuri un kukaini tiem apkart rosas";
     }
 
-    return text;
+    return S;
   }
 
   public static char getSymbol() {
-    // Scanner sus = new Scanner(System.in);
-
     System.out.print("Enter symbol: ");
     String symbol = in.nextLine();
 
@@ -36,8 +34,8 @@ class Main {
     return symbol.toLowerCase().charAt(0);
   }
 
-  public static void findWords(char symbol, String text) {
-    String[] parts = text.split(" ");
+  public static void findWords(char symbol, String S) {
+    String[] parts = S.split(" ");
     int totalEq = 0;
 
     for (int i = 0; i < parts.length; i++) {
@@ -53,35 +51,35 @@ class Main {
         "There are " + totalEq + " words that start with symbol " + symbol);
   }
 
-  public static void matchSymbols(String text) {
-    String[] parts = text.split("");
+  public static void matchSymbols(String S) {
+    String[] parts = S.split("");
 
-    String matchingChars = "";
+    String S1 = "";
 
     for (int i = 0; i < parts.length; i++) {
       String character = parts[i];
 
-      if (character.equals(" ") | character.equals(",") | character.equals(".") | matchingChars.contains(character)) {
+      if (character.equals(" ") | character.equals(",") | character.equals(".") | S1.contains(character)) {
         continue;
       }
 
-      int csl = text.split(character).length;
+      int csl = S.split(character).length;
 
       if (csl >= 3) {
-        matchingChars += character;
+        S1 += character;
       }
     }
 
-    System.out.println("Matching characters: " + matchingChars);
+    System.out.println("Matching characters: " + S1);
   }
 
   public static void main(String[] args) {
-    String text = getText();
+    String S = getText();
 
     char symbol = getSymbol();
 
-    findWords(symbol, text);
-    matchSymbols(text);
+    findWords(symbol, S);
+    matchSymbols(S);
 
     in.close();
   }

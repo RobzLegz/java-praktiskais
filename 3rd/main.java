@@ -80,7 +80,7 @@ class Main {
                     if (rowInt < 10) {
                         fArrRow += " ";
                     }
-                }else if(rowInt > -10){
+                } else if (rowInt > -10) {
                     fArrRow += " ";
                 }
 
@@ -145,33 +145,38 @@ class Main {
             }
         }
 
-        // ArrayList<ArrayList<Integer>> rtrnArr = new ArrayList<ArrayList<Integer>>();
+        ArrayList<ArrayList<Integer>> rtrnArr = new ArrayList<ArrayList<Integer>>();
 
-        for (int i = 0; i < arr.size(); i++){
+        for (int i = 0; i < arr.size(); i++) {
+            ArrayList<Integer> nRow = new ArrayList<Integer>();
             ArrayList<Integer> row = arr.get(i);
 
-            for (int j = 0; j < row.size(); j++){
+            for (int j = 0; j < row.size(); j++) {
                 int ma = row.get(maxJ);
                 int mi = row.get(minJ);
                 int n = row.get(j);
 
-                if(j == minJ){
-                    row.set(j, ma);
-                }else if(j == maxJ){
-                    row.set(j, mi);
-                }else{
-                    row.set(j, n);
+                if (j == minJ) {
+                    nRow.add(ma);
+                } else if (j == maxJ) {
+                    nRow.add(mi);
+                } else {
+                    nRow.add(n);
                 }
             }
 
-            arr.set(i, row);
+            rtrnArr.add(nRow);
         }
 
-        System.out.println("Min value: " + minVal); 
+        System.out.println("Min value: " + minVal);
         System.out.println("Max value: " + maxVal);
 
+        if (minJ == maxJ) {
+            System.out.println("MAX and MIN value are in the same column");
+        }
+
         System.out.println("New array: ");
-        printArr(arr);
+        printArr(rtrnArr);
     }
 
     public static void main(String[] args) {

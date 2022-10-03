@@ -190,7 +190,8 @@ Katra vārda pirmo burtu funkcija salīdzīna ar simbolu, ja tie sakrīt, tiek p
 
 Funkcija saņem tekstu un to sadala pa simboliem.
 Ejot pāri simbolu masīvam funkcija pārbauda vai simbolu virkne jau satur šo simbolu. 
-Ja nesatur, tad simbols tiek pievienots simbolu virknei
+Ja satur, tad pāriet uz nākamo elementu.
+Ja nesatur, tad tad teksts tiek sadalīts tajās vietās, kur sakrīt simboli. Ja teksts sadalīts vairāk par 2 daļām, tad sanāk ka simbols atkārtojas un tiek pievienots rezultāta virknei
 
 ```java
 public static void main(String[] args) {

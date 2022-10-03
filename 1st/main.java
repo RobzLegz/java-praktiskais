@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Main {
-
   public static Scanner in = new Scanner(System.in);
 
   public static String getText() {
@@ -18,8 +17,7 @@ class Main {
       System.out.println("Enter text:");
       text = in.nextLine();
     } else {
-      text =
-        "Ir pavasaris, daudz jaunu lapu mostas, dzimst jauni pumpuri un kukaini tiem apkart rosas";
+      text = "Ir pavasaris, daudz jaunu lapu mostas, dzimst jauni pumpuri un kukaini tiem apkart rosas";
     }
 
     return text;
@@ -53,8 +51,29 @@ class Main {
     }
 
     System.out.println(
-      "There are " + totalEq + " words that start with symbol " + symbol
-    );
+        "There are " + totalEq + " words that start with symbol " + symbol);
+  }
+
+  public static void matchSymbols(String text) {
+    String[] parts = text.split("");
+
+    String matchingChars = "";
+
+    for (int i = 0; i < parts.length; i++) {
+      String character = parts[i];
+
+      if (character.equals(" ") | character.equals(",") | character.equals(".") | matchingChars.contains(character)) {
+        continue;
+      }
+
+      int csl = text.split(character).length;
+
+      if (csl >= 3) {
+        matchingChars += character;
+      }
+    }
+
+    System.out.println("Matching characters: " + matchingChars);
   }
 
   public static void main(String[] args) {
@@ -63,6 +82,7 @@ class Main {
     char symbol = getSymbol();
 
     findWords(symbol, text);
+    matchSymbols(text);
 
     in.close();
   }

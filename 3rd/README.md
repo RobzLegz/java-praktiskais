@@ -438,4 +438,5 @@ public static void main(String[] args) {
 Galvenā funkcija, kas izsauc pārējās.
 
 ### Rezultāts:
+![image](https://user-images.githubusercontent.com/62758448/193749427-e9cd9d85-cd35-4ce8-923b-d3644ba2ac2f.png)
 

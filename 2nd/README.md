@@ -271,4 +271,5 @@ public static void main(String[] args) {
 Galvenā funkcija, kas izsauc pārējās.
 
 ### Rezultāts:
+![image](https://user-images.githubusercontent.com/62758448/193739393-6fd024f0-28a3-496f-9908-b619c1082215.png)
 

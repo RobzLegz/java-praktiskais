@@ -32,6 +32,22 @@ Plusi:
 
 Mūsdienās Java programmēšanas valodai ir parādījušies arī konkurenti, kā kotlin - tiešais konkurents un react-native - mobilo aplikāciju izstrādei.
 
+## Darba tēma
+Praktiskais uzdevums Java valodā
+
+## Darba mērķis
+Iepazīt Java programmēšanas valodu, izstrādāt ar to algoritmus, paplašināt zināšanas programmēšanā.
+
+## Darba uzdevums
+1. Sastādīt programmu ar Java valodu, kas paredzēta simbolu virkņu apstrādei. Sākumdatus ievada lietotājs.
+- noteikt vārdu skaitu, kas sākas ar norādīto simbolu
+- izveidot jaunu virkni S1, kur ir visi atkārtoti simboli no virknes S
+2. Sastādīt programmu, kas paredzēta viendimensijas masīva apstrādei. Aizpildīt reālo skaitļu masīvu ar n nejaušiem skaitļiem diapazonā -100...100. Izmantojot funkciju printArr() izprintēt uz ekrāna masīvu. Masīvā aizvietot visus negatīvus elementus ar vidējo aritmētisko masīva elementu vērtību.
+3. Sastādīt programmu, kas paredzēta divdimensiju masīva apstrādei. Kādā programmā paredzēt
+masīva aizpildes veida (ar nejaušiem skaitļiem diapazonā -100…100 vai ar patstāvīgi ievadītiem
+elementiem) izvēles iespēju. Masīvu nodod funkcijai, kas paredzēta masīva apstrādei: samainīt
+vietām matricas kolonnas, kas satur minimālo un maksimālo elementus. 
+
 ## Hipotēze
 
 Domāju, ka problēmu izstrādes laikā nebūs, un apgūšu jaunas zināšanas Java programmēšanas valodā.

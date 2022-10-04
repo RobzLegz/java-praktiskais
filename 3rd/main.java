@@ -61,24 +61,6 @@ class Main {
         return arr;
     }
 
-    public static ArrayList<ArrayList<Integer>> getArr() {
-        ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
-
-        System.out.println("Do you want to create your own array?");
-        System.out.println("y [yes]");
-        System.out.println("n [no]");
-
-        String choice = in.nextLine();
-
-        if (choice.toLowerCase().equals("y")) {
-            arr = enterArr();
-        } else {
-            arr = autoArr();
-        }
-
-        return arr;
-    }
-
     public static void printArr(ArrayList<ArrayList<Integer>> arr) {
         for (int i = 0; i < arr.size(); i++) {
             ArrayList<Integer> row = arr.get(i);
@@ -107,6 +89,24 @@ class Main {
 
             System.out.println(fArrRow);
         }
+    }
+
+    public static ArrayList<ArrayList<Integer>> getArr() {
+        ArrayList<ArrayList<Integer>> arr = new ArrayList<ArrayList<Integer>>();
+
+        System.out.println("Do you want to create your own array?");
+        System.out.println("y [yes]");
+        System.out.println("n [no]");
+
+        String choice = in.nextLine();
+
+        if (choice.toLowerCase().equals("y")) {
+            arr = enterArr();
+        } else {
+            arr = autoArr();
+        }
+
+        return arr;
     }
 
     public static void fun(ArrayList<ArrayList<Integer>> arr) {

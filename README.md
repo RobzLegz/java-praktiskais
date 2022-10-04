@@ -1,13 +1,13 @@
 # Algoritmi "Java" programmēšanas valodā
 
 ## Saturs
-1. [Ievads](https://github.com/RobzLegz/java-praktiskais/tree/docs#ievads)
-2. [Hipotēze](https://github.com/RobzLegz/java-praktiskais/tree/docs#hipotēze)
-3. [1. uzdevums](https://github.com/RobzLegz/java-praktiskais/tree/docs#1-uzdevums)
-4. [2. uzdevums](https://github.com/RobzLegz/java-praktiskais/tree/docs#2-uzdevums)
-5. [3. uzdevums](https://github.com/RobzLegz/java-praktiskais/tree/docs#3-uzdevums)
-6. [Secinājumi](https://github.com/RobzLegz/java-praktiskais/tree/docs#secinājumi)
-7. [Izmantotie resursi](https://github.com/RobzLegz/java-praktiskais/tree/docs#izmantotie-resursi)
+1. [Ievads](https://github.com/RobzLegz/java-praktiskais#ievads)
+2. [Hipotēze](https://github.com/RobzLegz/java-praktiskais#hipotēze)
+3. [1. uzdevums](https://github.com/RobzLegz/java-praktiskais#1-uzdevums)
+4. [2. uzdevums](https://github.com/RobzLegz/java-praktiskais#2-uzdevums)
+5. [3. uzdevums](https://github.com/RobzLegz/java-praktiskais#3-uzdevums)
+6. [Secinājumi](https://github.com/RobzLegz/java-praktiskais#secinājumi)
+7. [Izmantotie resursi](https://github.com/RobzLegz/java-praktiskais#izmantotie-resursi)
 
 ## Ievads
 

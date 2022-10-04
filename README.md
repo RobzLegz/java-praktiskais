@@ -2,12 +2,15 @@
 
 ## Saturs
 1. [Ievads](https://github.com/RobzLegz/java-praktiskais#ievads)
-2. [Hipotēze](https://github.com/RobzLegz/java-praktiskais#hipotēze)
-3. [1. uzdevums](https://github.com/RobzLegz/java-praktiskais#1-uzdevums)
-4. [2. uzdevums](https://github.com/RobzLegz/java-praktiskais#2-uzdevums)
-5. [3. uzdevums](https://github.com/RobzLegz/java-praktiskais#3-uzdevums)
-6. [Secinājumi](https://github.com/RobzLegz/java-praktiskais#secinājumi)
-7. [Izmantotie resursi](https://github.com/RobzLegz/java-praktiskais#izmantotie-resursi)
+2. [Darba tēma](https://github.com/RobzLegz/java-praktiskais#darba-tēma)
+3. [Darba mērķis](https://github.com/RobzLegz/java-praktiskais#darba-mērķis)
+4. [Darba uzdevumi](https://github.com/RobzLegz/java-praktiskais#darba-uzdevumi) 
+5. [Hipotēze](https://github.com/RobzLegz/java-praktiskais#hipotēze)
+6. [1. uzdevums](https://github.com/RobzLegz/java-praktiskais#1-uzdevums)
+7. [2. uzdevums](https://github.com/RobzLegz/java-praktiskais#2-uzdevums)
+8. [3. uzdevums](https://github.com/RobzLegz/java-praktiskais#3-uzdevums)
+9. [Secinājumi](https://github.com/RobzLegz/java-praktiskais#secinājumi)
+10. [Izmantotie resursi](https://github.com/RobzLegz/java-praktiskais#izmantotie-resursi)
 
 ## Ievads
 
@@ -38,7 +41,7 @@ Praktiskais uzdevums Java valodā
 ## Darba mērķis
 Iepazīt Java programmēšanas valodu, izstrādāt ar to algoritmus, paplašināt zināšanas programmēšanā.
 
-## Darba uzdevums
+## Darba uzdevumi
 1. Sastādīt programmu ar Java valodu, kas paredzēta simbolu virkņu apstrādei. Sākumdatus ievada lietotājs.
 - noteikt vārdu skaitu, kas sākas ar norādīto simbolu
 - izveidot jaunu virkni S1, kur ir visi atkārtoti simboli no virknes S
